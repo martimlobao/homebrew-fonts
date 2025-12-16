@@ -1,5 +1,5 @@
 cask "font-neacademia" do
-  version :latest
+  version "1.0.0"
   sha256 :no_check
 
   url "https://github.com/martimlobao/homebrew-fonts.git",
@@ -7,6 +7,7 @@ cask "font-neacademia" do
       branch:    "main",
       only_path: "fonts/neacademia"
   name "Neacademia"
+  desc "Neacademia"
   homepage "https://github.com/martimlobao/homebrew-fonts"
 
   font "NeacademiaDisplay-Italic.ttf"
