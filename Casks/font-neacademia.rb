@@ -3,7 +3,6 @@ cask "font-neacademia" do
   sha256 :no_check
 
   url "https://github.com/martimlobao/homebrew-fonts.git",
-      verified:  "github.com/martimlobao/homebrew-fonts",
       branch:    "main",
       only_path: "fonts/neacademia"
   name "Neacademia"
